@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: config-service
-          image: localhost:5001/config-service:latest
+          image: localhost:32000/config-service
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8888
